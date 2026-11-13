@@ -1,0 +1,21 @@
+{
+  "fixture": "real_english.json",
+  "kind": "real prediction on synthetic input",
+  "input": {"text": "Hello, have a pleasant day."},
+  "question_descriptions": {
+    "harassment": "Targeted personal abuse or bullying",
+    "politics": "Political discussion or campaigning"
+  },
+  "template_version": "1.0",
+  "runtime": "laya==0.4.31",
+  "checkpoint": "convaiinnovations/laya",
+  "revision": "85cc74ddae6109077ebe2853a9b3077fb6606a78",
+  "python": "3.12.3",
+  "platform": "Linux x86_64",
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "constructor": {"vega": false, "device": "cpu", "max_loaded": 1},
+  "model_selection": "english",
+  "claim": "API compatibility only; no moderation accuracy claim"
+}
